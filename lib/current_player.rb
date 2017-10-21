@@ -6,6 +6,7 @@ def turn_count(board)
 
     if !( space == "" || space == " " || space == nil)
       turns += 1
+    end
   end
   turns
 end
